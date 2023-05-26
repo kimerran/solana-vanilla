@@ -1,0 +1,15 @@
+└─(11:41:55 on master ✭)──> cargo build-bpf                                                                                             ──(Fri,May26)─┘
+
+
+Warning: cargo-build-bpf is deprecated. Please, use cargo-build-sbf
+cargo-build-bpf child: /home/mh/.local/share/solana/install/active_release/bin/cargo-build-sbf --arch bpf
+    Finished release [optimized] target(s) in 0.09s
+
+
+cargo-build-sbf
+
+
+# deploy the program
+solana program deploy
+
+Program Id: 3mEzhjsfGHseAPeaQF21s77R5684VUJuezXPSvxqV5LF
